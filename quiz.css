@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #001E4D;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px;
+    color: #001E4D;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #001E4D;
+}
+
+
+#alternativa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn {
+    text-align: start;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+    color: white;
+    background-color: black;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+.btn:active:not([disabled]) {
+    opacity: 0.7;
+}
+
+
+
+#proximo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#proximo:hover {
+    color: white;
+    background-color: #001E4D;
+}
+
+#proximo:active {
+    opacity: 0.6;
+}
+
+
+.correto {
+    background-color: green;
+    color: white;
+}
+
+.incorreto {
+    background-color: red;
+    color: white;
+}
