@@ -105,6 +105,12 @@ h3 {
         width: 80%;
         height: 80%;
     }
+    
+    #proximo {
+        width: 25%;
+        height: 40px;
+    }
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -112,4 +118,10 @@ h3 {
         width: 100%;
         height: 100%;
     }
+
+    #proximo {
+        width: 40%;
+        height: 35px;
+    }
 }
+
